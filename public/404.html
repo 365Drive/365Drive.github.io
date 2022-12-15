@@ -1,0 +1,6 @@
+<script>
+    let path_name = location.pathname
+    let deploy_path = '/netdisk/'
+    let path = path_name.startsWith(deploy_path)?path_name.slice(deploy_path.length):path_name
+    window.location.href = deploy_path + '?path=' + path
+</script>

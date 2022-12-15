@@ -1,0 +1,1 @@
+import{y as e}from"./vendor.36e124e7.js";const o=()=>{let{pathname:t}=e();return t.startsWith(localStorage.getItem("DEPLOY_PATH"))&&(t=t.slice(localStorage.getItem("DEPLOY_PATH").length-1)),{pathname:t}};export{o as u};
